@@ -41,10 +41,10 @@ We set our own IDS using ET rules under an emulated environment. To emulate near
 	
 We normalized Customized ruleset compared with ET PRO. The settings of events for different dataset are as follows:
 
-|        | Duration | Singleton % | Ordinary % | Majority % | Total Events |
-|--------|:--------:|-------------|------------|------------|--------------|
-| IURM_4 | 24 hr    | 85          | 12         | 3          | 2000         |
-| IURM_5 | 24 hr    | 90          | 8          | 2          | 20000        |
+|        | Duration | Singleton % | Ordinary % | Majority % | Total Events |   Size  |
+|--------|:--------:|-------------|------------|------------|--------------|:-------:|
+| IURM_4 | 24 hr    | 85          | 12         | 3          | 2000         | 15MByte |
+| IURM_5 | 24 hr    | 90          | 8          | 2          | 20000        | 86MByte |
 
 Note that since the emulations do not starts at exact time. We **truncate** the data for better time alignment. Therefore, the total events and rate of events are not at exact number as well.
 
