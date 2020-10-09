@@ -4,6 +4,7 @@ There are multiple public datasets from network-based IDS[1], which can be divid
 1. Generated in an emulated environment with events from a shell scripts launched by the dataset collector.
 1. Pure real world logs collected from specific vantage point
 1. Some use simulated attack in real world as the combination of previous two scenarios. 
+
 However, lacking of complexity, simulated events are quite platitude and regular. 
 On the other hand, lacking of knowledge and motivation that drives each logs, manually identifying every group of events keeps no accuracy as well. Therefore, we attempt a complicated irregular emulated dataset based on IDS logs we collected from real word.
 	
