@@ -17,8 +17,8 @@ We do not conjure events. Instead, everything is sampled from real world data. W
 | ISP EDU       |    B   |       2      | Customized | May 22 2019  | Jun. 25 2019 |     34     |  2,677,111 |
 | Government C  |    A   |       1      |   ET PRO   | Oct. 13 2019 | Oct. 25 2019 |     12     |  1,743,444 |
 | Government C  |    B   |       1      |   ET PRO   | Nov. 12 2019 | Dec. 11 2019 |     29     | 16,802,152 |
-| Education L   |    A   |       1      |   ET PRO   | Oct. 13 2019 | Oct. 25 2019 |     12     |  8,995,867 |
-| Research Y    |    A   |       1      |   ET PRO   | Dec. 3 2019  | Dec. 5 2019  |      3     |    368,697 |
+| Education L   |    -   |       1      |   ET PRO   | Oct. 13 2019 | Oct. 25 2019 |     12     |  8,995,867 |
+| Research Y    |    -   |       1      |   ET PRO   | Dec. 3 2019  | Dec. 5 2019  |      3     |    368,697 |
 
 For security and privacy reason, we mark each vantage point with its property category:	
 - ISP EDU is a special Tier-2 ISP, which provides services for most universities and national institutions in China. We collect two periods of data from two backbone IDS located in Beijing, China. These two IDS are equally configured with same settings and using same hardware. They are also upgraded at the same time once the new version of settings are established. Note that both devices are upgraded multiple times simultaneously between Period A and B. They are served as front line filter for both servers of the ISP servers and other facilities within this ISP group. In the other VPs, we mirror all incoming and outgoing traffic of its backbone network in a parallel system. The application is installed in that system with a third-party software Network-Based IDS, and we configure it to use the latest ET Pro rules. 
